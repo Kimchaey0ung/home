@@ -1,0 +1,57 @@
+body {
+	align-items: center;
+}
+
+* {
+	word-break: keep-all;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: ghostwhite;
+	text-align: center;	
+}
+
+h2 {
+	background-color:rgb(223, 245, 255);
+	text-align: center;
+}
+
+h3 {
+	text-orientation: upright;
+	text-align: center;
+	margin-top: 30px;
+}
+
+article {
+	background-color: lavenderblush;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+section {
+	border: 2px solid lemonchiffon;
+	width: 90vw;
+	padding: 10px;
+	align-items: center;
+	text-align: center ;
+
+}
+
+p {
+	word-break: keep-all;
+	height: 26px;
+	background: radial-gradient(lightyellow, white);
+	letter-spacing: 0.1px;
+	line-height: 2;
+	writing mode: vertical-rl
+	text-orientation: upright;
+	text-align: center;
+	border-radius: 10px;
+}

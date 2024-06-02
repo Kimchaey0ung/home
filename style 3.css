@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("moon.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100vw auto;
+}
+
+
+@media screen and (max-aspect-ratio: 3/2) {
+	body {
+		background-size: auto 100vh;
+	}
+}
+
+
+article {
+	display: flex;
+	color: white;
+}
+
+section {
+	width: calc(100vw / 10);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.8s;
+}
+
+h2 {
+	cursor: pointer;
+}
+
+section:hover {
+	width: 80%;
+	background-color: white;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.p1 {
+	opacity: 0;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.se1:hover .p1 {
+	color: black;
+	opacity: 1;
+}
