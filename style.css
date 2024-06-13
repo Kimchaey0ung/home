@@ -165,6 +165,9 @@ p {
 }
 
 .se8 {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
 	background-image: url("img/denim.jpg");
 }
 .se8:hover {
@@ -172,4 +175,9 @@ p {
 }
 .se9 {
 	background-color: rgb(94, 156, 227);
+
+}
+
+img {
+	width: 100%;
 }
