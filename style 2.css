@@ -37,10 +37,12 @@ section {
 	align-items: center;
 	text-align: center ;
 	height: 88vh;
-
 }
 
-
+img {
+	width: 40vw;
+	eight: 30vh;
+}
 
 .s1 {
 	display: flex;
@@ -62,17 +64,19 @@ section {
 	text-orientation: upright;
 	text-align: center;
 	margin: 3.5px;
+	margin-top: 10px;
 	background-color: azure;
 	width: 300px;
 }
 .p2 {
 	line-height: 1.5;
 	width: 300px;
+	margin-top: 200px;
 }
 
 .d1 {
 	display: flex;
-	width: 34vW;
+	width: 34vw;
 }
 .d2 {
 	width: 20vw;
@@ -100,9 +104,6 @@ section {
 		justify-content: flex-start;
 		height: 90vh;
 
-	}
-
-	.s1 {
 	}
 
 	.s2 {
