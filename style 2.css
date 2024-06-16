@@ -37,14 +37,12 @@ section {
 	align-items: center;
 	text-align: center ;
 	height: 88vh;
+
 }
 
-img {
-	width: 40vw;
-	eight: 30vh;
+div {
+	margin: 10px;
 }
-
-
 
 .s1 {
 	display: flex;
@@ -57,30 +55,30 @@ img {
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 550vw;
-	height: 300px;
+	overflow: auto;
 }
 
-
+p {
+	width: 300px;
+}
 .p1 {
 	line-height: 1.5;
 	text-orientation: upright;
 	text-align: center;
 	margin: 3.5px;
 	background-color: azure;
-	width: 300px;
 }
 .p2 {
 	line-height: 1.5;
-	width: 300px;
 }
 
 .d1 {
 	display: flex;
-	width: 34vw;
+	width: 34vW;
+	margin: 20px;
 }
 .d2 {
 	width: 20vw;
-	height: 185px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -91,7 +89,6 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	margin-bottom: 10px;
 }
 
 
@@ -107,12 +104,10 @@ img {
 	}
 
 	.s2 {
-		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		width: auto;
 		height: 110vh;
-		overflow-x: scroll;
 	}
 
 	h1 {
@@ -125,6 +120,7 @@ img {
 		writing-mode: horizontal-tb;
 	}
 	.p1 {
+		width: px;
 		font-size: 15px;
 	}
 
@@ -142,6 +138,14 @@ img {
 	}
 	.p1 {
 		width: 490px;
+	}
+
+	.s2 {
+		display: flex;
+		flex-direction: column;
+		overflow-y: hidden;
+}
+
 	}
 
 	img {
