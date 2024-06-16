@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	word-break: keep-all;
+	white-space: pre-line;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 8000px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	border: 10px solid darkblue;
+	width: 550px;
+	height: 80vh;
+	margin-top: 45px;
+}
+
+p {
+	margin: 20px;
+	font-size: 30px;
+	opacity: 0;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}
+p:hover {
+	opacity: 1;
+}
+
+img {
+	opacity: 0;
+}
+section:hover img{
+	opacity: 1;
+}
+
+
+.se1 {
+	background-image: url(img/1.JPG);
+	overflow: scroll;
+}
+
+.se2 {
+	background-image: url(img/5.JPG);
+}
+
+section:hover p {
+	background-color: cornsilk;
+}
+
+.se3 {
+	background-image: url(img/3.JPG);
+	overflow: scroll;
+}
+
+.se4 {
+	background-image: url(img/4.JPG);
+}
+
+.se5 {
+	background-image: url(img/2.JPG);
+	overflow: scroll;
+}
+
+.se6 {
+	background-image: url(img/7.JPG);
+}
+
+.se7 {
+	background-image: url(img/8.JPG);
+	overflow: scroll;
+}
+
+.se8 {
+	background-image: url(img/9.JPG);
+}
+
+.se9 {
+	background-image: url(img/11.JPG);
+}
+
+
+
+@media screen and (max-width: 900px) {
+	section {
+		transform: scale(0.8);
+	}
+
+	article {
+		width: 5500px;
+	}
+	
+}

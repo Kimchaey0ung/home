@@ -2,6 +2,8 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	word-break: keep-all;
+
 }
 
 body {
@@ -19,7 +21,6 @@ body {
 	}
 }
 
-
 article {
 	display: flex;
 	color: white;
@@ -33,15 +34,18 @@ section {
 	justify-content: center;
 	transition: 0.8s;
 }
-
-h2 {
-	cursor: pointer;
-}
-
 section:hover {
 	width: 80%;
 	background-color: white;
 }
+section:hover h2 {
+	opacity: 0;
+}
+
+h2 {
+	position: absolute;
+}
+
 
 div {
 	display: flex;
@@ -55,7 +59,9 @@ div {
 	align-items: center;
 	justify-content: center;
 	color: white;
+	padding: 10px;
 }
+
 .se1:hover .p1 {
 	color: black;
 	opacity: 1;
