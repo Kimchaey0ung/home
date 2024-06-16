@@ -44,6 +44,8 @@ img {
 	eight: 30vh;
 }
 
+
+
 .s1 {
 	display: flex;
 	flex-direction: column;
@@ -64,14 +66,12 @@ img {
 	text-orientation: upright;
 	text-align: center;
 	margin: 3.5px;
-	margin-top: 10px;
 	background-color: azure;
 	width: 300px;
 }
 .p2 {
 	line-height: 1.5;
 	width: 300px;
-	margin-top: 200px;
 }
 
 .d1 {
