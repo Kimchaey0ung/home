@@ -26,6 +26,7 @@ section {
 
 p {
 	margin: 20px;
+	padding: 25px;
 	font-size: 30px;
 	opacity: 0;
 	text-align: center;
@@ -44,6 +45,9 @@ section:hover img{
 	opacity: 1;
 }
 
+.se2:hover background-image{
+	opacity: 0;
+}
 
 .se1 {
 	background-image: url(img/1.JPG);
@@ -55,7 +59,7 @@ section:hover img{
 }
 
 section:hover p {
-	background-color: cornsilk;
+	background-color: linen;
 }
 
 .se3 {
